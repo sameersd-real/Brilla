@@ -1,0 +1,2 @@
+# Brilla
+static brilla page
