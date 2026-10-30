@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brilla — Your Business Deserves to Shine Online</title>
+  <meta name="description" content="Brilla helps small businesses and freelancers build professional online portfolios, showcase their services, improve online visibility, and attract potential customers with zero code.">
+  <meta name="theme-color" content="#351E33">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==============================================
+       1. NAVIGATION BAR
+       ============================================== -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Brilla Home">
+        <img src="brilla-logo-transparent.png" alt="Brilla — Business Portfolio Builder" class="brand-logo-img">
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-links" id="desktopNav" aria-label="Main Navigation">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#problem" class="nav-link">Why Brilla</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#audience" class="nav-link">Who It's For</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Desktop Action -->
+      <div class="nav-cta-wrapper">
+        <button class="btn btn-primary nav-btn open-modal-btn">
+          <span>Get Started</span>
+          <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.167 10h11.666m-5-5l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileDrawer">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+      <div class="mobile-drawer-inner">
+        <nav class="mobile-nav-links">
+          <a href="#hero" class="mobile-nav-link active">Home</a>
+          <a href="#problem" class="mobile-nav-link">Why Brilla</a>
+          <a href="#features" class="mobile-nav-link">Features</a>
+          <a href="#how-it-works" class="mobile-nav-link">How It Works</a>
+          <a href="#audience" class="mobile-nav-link">Who It's For</a>
+          <a href="#about" class="mobile-nav-link">About</a>
+          <a href="#contact" class="mobile-nav-link">Contact</a>
+        </nav>
+        <div class="mobile-drawer-cta">
+          <button class="btn btn-primary btn-block open-modal-btn">Get Started Free</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==============================================
+         2. HERO SECTION
+         ============================================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-blobs" aria-hidden="true">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="sparkle-star star-1">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="#FAEDD8"><path d="M12 2 C12 8 8 12 2 12 C8 12 12 16 12 22 C12 16 16 12 22 12 C16 12 12 8 12 2 Z"/></svg>
+        </div>
+        <div class="sparkle-star star-2">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="#F6D09E"><path d="M12 2 C12 8 8 12 2 12 C8 12 12 16 12 22 C12 16 16 12 22 12 C16 12 12 8 12 2 Z"/></svg>
+        </div>
+        <div class="sparkle-star star-3">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#FAEDD8"><path d="M12 2 C12 8 8 12 2 12 C8 12 12 16 12 22 C12 16 16 12 22 12 C16 12 12 8 12 2 Z"/></svg>
+        </div>
+      </div>
+
+      <div class="container hero-container">
+        <!-- Hero Text -->
+        <div class="hero-content">
+          <div class="hero-badge reveal">
+            <span class="badge-sparkle">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="#FAEDD8"><path d="M12 2 C12 8 8 12 2 12 C8 12 12 16 12 22 C12 16 16 12 22 12 C16 12 12 8 12 2 Z"/></svg>
+            </span>
+            <span class="badge-text">The Simple Portfolio Builder for Everyday Professionals</span>
+          </div>
+
+          <h1 class="hero-title reveal delay-1">
+            Your Business Deserves to <span class="gradient-text">Shine Online.</span>
+          </h1>
+
+          <p class="hero-subtitle reveal delay-2">
+            Build a professional online presence, showcase your services, and connect with more customers — all in one place.
+          </p>
+
+          <div class="hero-actions reveal delay-3">
+            <button class="btn btn-primary btn-lg open-modal-btn">
+              <span>Get Started</span>
+              <svg width="18" height="18" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.167 10h11.666m-5-5l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <a href="#features" class="btn btn-secondary btn-lg">
+              <span>Explore Features</span>
+              <svg width="18" height="18" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 4.167v11.666m-5-5l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Hero Trust Markers -->
+          <div class="hero-trust reveal delay-4">
+            <div class="avatar-stack">
+              <span class="avatar av-1">JS</span>
+              <span class="avatar av-2">AM</span>
+              <span class="avatar av-3">RK</span>
+              <span class="avatar av-4">TL</span>
+            </div>
+            <div class="trust-text">
+              <div class="stars" aria-label="5 stars rating">★★★★★</div>
+              <p>Trusted by <strong>1,200+</strong> freelancers & small business owners</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Mockup: Laptop + Smartphone Combination -->
+        <div class="hero-visual reveal delay-2">
+          <div class="mockup-stage">
+            
+            <!-- Laptop Device Mockup -->
+            <div class="mockup-laptop">
+              <div class="laptop-screen">
+                <div class="laptop-browser-bar">
+                  <span class="browser-dot dot-red"></span>
+                  <span class="browser-dot dot-yellow"></span>
+                  <span class="browser-dot dot-green"></span>
+                  <div class="browser-address">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                      <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                    </svg>
+                    <span>brilla.site/atelier-flora</span>
+                  </div>
+                </div>
+
+                <!-- Inner Mockup Portfolio Content -->
+                <div class="portfolio-preview">
+                  <header class="portfolio-header">
+                    <div class="portfolio-brand">
+                      <div class="portfolio-avatar">🌿</div>
+                      <div>
+                        <div class="portfolio-title">Atelier Flora & Styling</div>
+                        <div class="portfolio-sub">Bespoke Floristry & Event Design</div>
+                      </div>
+                    </div>
+                    <span class="portfolio-badge">Available for Bookings</span>
+                  </header>
+
+                  <div class="portfolio-banner">
+                    <div class="banner-pill">Handcrafted Botanical Experiences</div>
+                    <h4>Crafting floral atmospheres for weddings, retail spaces, and private events.</h4>
+                  </div>
+
+                  <div class="portfolio-grid">
+                    <div class="portfolio-card">
+                      <div class="card-thumb thumb-1"></div>
+                      <div class="card-meta">
+                        <span class="tag">Event Design</span>
+                        <h5>Botanical Gala 2026</h5>
+                      </div>
+                    </div>
+                    <div class="portfolio-card">
+                      <div class="card-thumb thumb-2"></div>
+                      <div class="card-meta">
+                        <span class="tag">Styling</span>
+                        <h5>Editorial Floral Suite</h5>
+                      </div>
+                    </div>
+                    <div class="portfolio-card">
+                      <div class="card-thumb thumb-3"></div>
+                      <div class="card-meta">
+                        <span class="tag">Installation</span>
+                        <h5>Terrace Greenery</h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="portfolio-footer">
+                    <div class="p-rating">
+                      <span class="stars-gold">★★★★★</span> 4.9 (48 verified client reviews)
+                    </div>
+                    <div class="p-cta">Book Consultation &rarr;</div>
+                  </div>
+                </div>
+              </div>
+              <div class="laptop-base"></div>
+              <div class="laptop-notch"></div>
+            </div>
+
+            <!-- Overlapping Smartphone Mockup -->
+            <div class="mockup-phone">
+              <div class="phone-speaker"></div>
+              <div class="phone-screen">
+                <div class="phone-app-bar">
+                  <span>9:41</span>
+                  <span class="phone-status-icons">📶 🔋</span>
+                </div>
+                <div class="phone-body">
+                  <div class="phone-profile-chip">
+                    <div class="phone-chip-icon">⚡</div>
+                    <div>
+                      <strong>Elena Woods</strong>
+                      <small>UX Consultant</small>
+                    </div>
+                  </div>
+                  <div class="phone-highlight-box">
+                    <div class="phone-stat-number">100%</div>
+                    <div class="phone-stat-label">No Code Required</div>
+                  </div>
+                  <div class="phone-service-pill">
+                    <span>✨ UI/UX Audit</span>
+                    <strong>$450</strong>
+                  </div>
+                  <div class="phone-service-pill">
+                    <span>🚀 Web Revamp</span>
+                    <strong>$1,200</strong>
+                  </div>
+                  <div class="phone-cta-button">Message on WhatsApp</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating Decorative Glass Badges -->
+            <div class="glass-pill pill-top-right">
+              <div class="pill-icon-check">✓</div>
+              <div>
+                <strong>Zero Coding</strong>
+                <p>Live in 5 minutes</p>
+              </div>
+            </div>
+
+            <div class="glass-pill pill-bottom-left">
+              <div class="pill-sparkle">✨</div>
+              <div>
+                <strong>SEO Optimized</strong>
+                <p>Ready for discovery</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         3. PROBLEM SECTION
+         ============================================== -->
+    <section class="section problem-section" id="problem">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag tag-crimson">The Everyday Reality</span>
+          <h2 class="section-title">Great Businesses Deserve to Be Discovered.</h2>
+          <p class="section-lead">
+            Too many exceptional small businesses and skilled freelancers remain unseen simply because establishing a digital presence today is frustrating, costly, and unnecessarily complex.
+          </p>
+        </div>
+
+        <div class="problem-grid">
+          <!-- Problem 1 -->
+          <div class="card problem-card reveal">
+            <div class="problem-icon-wrapper">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/>
+              </svg>
+            </div>
+            <h3 class="problem-title">Limited Online Visibility</h3>
+            <p class="problem-desc">
+              Without an optimized web footprint, your hard work stays hidden from potential clients actively looking for your exact services in your local community or industry.
+            </p>
+            <div class="problem-footer-tag">The Visibility Gap</div>
+          </div>
+
+          <!-- Problem 2 -->
+          <div class="card problem-card reveal delay-1">
+            <div class="problem-icon-wrapper">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                <line x1="9" y1="9" x2="15" y2="15"/>
+                <line x1="15" y1="9" x2="9" y2="15"/>
+              </svg>
+            </div>
+            <h3 class="problem-title">Difficulty Showcasing Work</h3>
+            <p class="problem-desc">
+              Scattering photos across messaging chats, casual social feeds, or PDF attachments fails to convey the caliber of your craftsmanship and undermines your credibility.
+            </p>
+            <div class="problem-footer-tag">Unorganized Proof</div>
+          </div>
+
+          <!-- Problem 3 -->
+          <div class="card problem-card reveal delay-2">
+            <div class="problem-icon-wrapper">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"/>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                <line x1="8" y1="11" x2="14" y2="11"/>
+              </svg>
+            </div>
+            <h3 class="problem-title">Trouble Finding Customers</h3>
+            <p class="problem-desc">
+              Relying solely on word-of-mouth creates feast-or-famine cycles. When curious prospects search for your brand, having no clear landing page loses their interest immediately.
+            </p>
+            <div class="problem-footer-tag">Lost Inquiries</div>
+          </div>
+
+          <!-- Problem 4 -->
+          <div class="card problem-card reveal delay-3">
+            <div class="problem-icon-wrapper">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"/>
+                <polyline points="8 6 2 12 8 18"/>
+              </svg>
+            </div>
+            <h3 class="problem-title">Lack of Technical Skills</h3>
+            <p class="problem-desc">
+              Traditional website builders are bloated, complicated to maintain, and custom web agencies charge thousands of dollars that early-stage businesses cannot justify.
+            </p>
+            <div class="problem-footer-tag">Tech Barrier</div>
+          </div>
+        </div>
+
+        <!-- Problem Callout Banner -->
+        <div class="problem-callout reveal">
+          <div class="callout-icon">💡</div>
+          <div class="callout-content">
+            <h4>You shouldn't need a computer science degree to have a beautiful website.</h4>
+            <p>Your talent is your craft — styling hair, designing interiors, writing code, or running a boutique. Brilla takes care of the digital presentation so you can focus on what you do best.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         4. SOLUTION SECTION
+         ============================================== -->
+    <section class="section solution-section" id="solution">
+      <div class="container">
+        <div class="solution-grid">
+          <!-- Solution Narrative -->
+          <div class="solution-content reveal">
+            <span class="section-tag tag-orange">The Brilla Solution</span>
+            <h2 class="section-title">Meet Brilla — Your Digital Presence Partner.</h2>
+            <p class="section-lead">
+              Brilla empowers small business owners, freelancers, and independent service providers to build elegant, high-converting online portfolios in minutes — without touching a single line of code.
+            </p>
+
+            <div class="solution-highlights">
+              <div class="highlight-item">
+                <div class="highlight-check">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <circle cx="10" cy="10" r="10" fill="rgba(250, 237, 216, 0.15)"/>
+                    <path d="M6 10L8.5 12.5L14 7" stroke="#FAEDD8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="highlight-title">All Your Business Essentials in One Place</h4>
+                  <p class="highlight-desc">Consolidate your bio, past projects, service rates, testimonials, social accounts, and direct contact details into a single professional link.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-check">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <circle cx="10" cy="10" r="10" fill="rgba(250, 237, 216, 0.15)"/>
+                    <path d="M6 10L8.5 12.5L14 7" stroke="#FAEDD8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="highlight-title">Designed for Immediate Credibility</h4>
+                  <p class="highlight-desc">Every Brilla layout is crafted following modern typography, balanced white space, and UX standards that signal authority and premium craftsmanship.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-check">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <circle cx="10" cy="10" r="10" fill="rgba(250, 237, 216, 0.15)"/>
+                    <path d="M6 10L8.5 12.5L14 7" stroke="#FAEDD8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="highlight-title">Zero Maintenance Headache</h4>
+                  <p class="highlight-desc">No software updates, no broken WordPress plugins, and no complicated hosting configurations. It simply works smoothly on every screen size.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="solution-action">
+              <button class="btn btn-primary open-modal-btn">Create Your Free Page</button>
+              <a href="#how-it-works" class="btn btn-outline">See How It Works</a>
+            </div>
+          </div>
+
+          <!-- Solution Interactive Visual Hub -->
+          <div class="solution-hub-container reveal delay-2">
+            <div class="hub-card">
+              <div class="hub-header">
+                <span class="hub-indicator"></span>
+                <span>The Unified Brilla Digital Hub</span>
+              </div>
+              
+              <div class="hub-canvas">
+                <!-- Center Core Node -->
+                <div class="hub-core-node">
+                  <img src="brilla-logo-transparent.png" alt="Brilla Hub" class="core-logo-img">
+                  <div class="core-sub">Your Central Orbit</div>
+                </div>
+
+                <!-- Surrounding Orbit Nodes -->
+                <div class="orbit-node node-1">
+                  <span class="node-icon">💼</span>
+                  <span class="node-label">Services & Pricing</span>
+                </div>
+
+                <div class="orbit-node node-2">
+                  <span class="node-icon">📸</span>
+                  <span class="node-label">Portfolio Gallery</span>
+                </div>
+
+                <div class="orbit-node node-3">
+                  <span class="node-icon">💬</span>
+                  <span class="node-label">Contact & Inquiries</span>
+                </div>
+
+                <div class="orbit-node node-4">
+                  <span class="node-icon">🌐</span>
+                  <span class="node-label">Social Media Hub</span>
+                </div>
+
+                <div class="orbit-node node-5">
+                  <span class="node-icon">🔍</span>
+                  <span class="node-label">SEO Ready Profile</span>
+                </div>
+
+                <div class="orbit-node node-6">
+                  <span class="node-icon">⭐</span>
+                  <span class="node-label">Reviews & Proof</span>
+                </div>
+              </div>
+
+              <div class="hub-footer">
+                <p>Seamlessly synchronizes on mobile, tablet, and desktop without custom configuration.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         5. FEATURES SECTION
+         ============================================== -->
+    <section class="section features-section" id="features">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag tag-crimson">Everything You Need</span>
+          <h2 class="section-title">Powerful Features, Effortless Experience.</h2>
+          <p class="section-lead">
+            Every feature in Brilla is engineered specifically to help independent creators and local businesses showcase their strengths and close deals faster.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Feature 1 -->
+          <div class="card feature-card reveal">
+            <div class="feature-icon icon-grad-1">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                <circle cx="12" cy="7" r="4"/>
+              </svg>
+            </div>
+            <h3 class="feature-title">Customizable Business Profiles</h3>
+            <p class="feature-desc">
+              Personalize your profile with your brand colors, custom logos, compelling mission statement, and operational hours to make the page uniquely yours.
+            </p>
+            <span class="feature-badge">Brand Identity</span>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="card feature-card reveal delay-1">
+            <div class="feature-icon icon-grad-2">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                <circle cx="8.5" cy="8.5" r="1.5"/>
+                <polyline points="21 15 16 10 5 21"/>
+              </svg>
+            </div>
+            <h3 class="feature-title">Professional Portfolio Galleries</h3>
+            <p class="feature-desc">
+              Display your finest photos, designs, renovations, or deliverables in clean, responsive grid galleries that load instantly on any device.
+            </p>
+            <span class="feature-badge">Visual Showcase</span>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="card feature-card reveal delay-2">
+            <div class="feature-icon icon-grad-3">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+              </svg>
+            </div>
+            <h3 class="feature-title">Service Listings & Rates</h3>
+            <p class="feature-desc">
+              List the services you provide with clear descriptions, turnaround times, and starting rates so potential clients know exactly what you offer.
+            </p>
+            <span class="feature-badge">Transparent Packages</span>
+          </div>
+
+          <!-- Feature 4 -->
+          <div class="card feature-card reveal delay-3">
+            <div class="feature-icon icon-grad-1">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+              </svg>
+            </div>
+            <h3 class="feature-title">Promotional Content</h3>
+            <p class="feature-desc">
+              Highlight seasonal discounts, upcoming workshops, package deals, or limited-time promotions right at the top of your page to incentivize action.
+            </p>
+            <span class="feature-badge">Announcement Bar</span>
+          </div>
+
+          <!-- Feature 5 -->
+          <div class="card feature-card reveal">
+            <div class="feature-icon icon-grad-2">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+                <line x1="16" y1="13" x2="8" y2="13"/>
+                <line x1="16" y1="17" x2="8" y2="17"/>
+                <polyline points="10 9 9 9 8 9"/>
+              </svg>
+            </div>
+            <h3 class="feature-title">Project Showcases</h3>
+            <p class="feature-desc">
+              Take prospects behind the scenes with case study highlights, client briefs, step-by-step methodologies, and the measurable outcomes of your work.
+            </p>
+            <span class="feature-badge">Case Studies</span>
+          </div>
+
+          <!-- Feature 6 -->
+          <div class="card feature-card reveal delay-1">
+            <div class="feature-icon icon-grad-3">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            <h3 class="feature-title">Contact Details Integration</h3>
+            <p class="feature-desc">
+              Provide effortless ways for visitors to connect via one-tap phone dialing, direct WhatsApp chat, standard email inquiry forms, or physical address maps.
+            </p>
+            <span class="feature-badge">Direct Leads</span>
+          </div>
+
+          <!-- Feature 7 -->
+          <div class="card feature-card reveal delay-2">
+            <div class="feature-icon icon-grad-1">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="18" cy="5" r="3"/>
+                <circle cx="6" cy="12" r="3"/>
+                <circle cx="18" cy="19" r="3"/>
+                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+              </svg>
+            </div>
+            <h3 class="feature-title">Social Media Integration</h3>
+            <p class="feature-desc">
+              Connect your active Instagram, LinkedIn, YouTube, TikTok, or Behance profiles with sleek branded buttons so clients can follow your latest updates.
+            </p>
+            <span class="feature-badge">Omnichannel</span>
+          </div>
+
+          <!-- Feature 8 -->
+          <div class="card feature-card reveal delay-3">
+            <div class="feature-icon icon-grad-2">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"/>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                <path d="M11 8v6"/>
+                <path d="M8 11h6"/>
+              </svg>
+            </div>
+            <h3 class="feature-title">Search Engine Optimization</h3>
+            <p class="feature-desc">
+              Automatically generated meta tags, lightning-fast lightweight markup, and schema structured data help your portfolio appear when clients search online.
+            </p>
+            <span class="feature-badge">Discoverability</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         6. HOW IT WORKS
+         ============================================== -->
+    <section class="section how-it-works-section" id="how-it-works">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag tag-orange">Simple 3-Step Setup</span>
+          <h2 class="section-title">From Idea to Online in Minutes.</h2>
+          <p class="section-lead">
+            We stripped away every complicated step. No domain headaches, no coding jargon, and no endless design tutorials.
+          </p>
+        </div>
+
+        <div class="steps-wrapper">
+          <!-- Step 1 -->
+          <div class="step-card reveal">
+            <div class="step-indicator">
+              <span class="step-number">01</span>
+              <span class="step-icon">📝</span>
+            </div>
+            <div class="step-content">
+              <h3 class="step-title">Create Your Profile</h3>
+              <p class="step-desc">
+                Choose your custom Brilla URL, enter your business name, pick your primary brand colors, and add an engaging summary of your expertise.
+              </p>
+              <div class="step-mini-preview">
+                <div class="preview-line line-wide"></div>
+                <div class="preview-line line-short"></div>
+                <div class="preview-chips">
+                  <span class="chip">🎨 Color</span>
+                  <span class="chip">🏢 Bio</span>
+                  <span class="chip">📍 City</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="step-connector" aria-hidden="true">
+            <svg width="40" height="24" viewBox="0 0 40 24" fill="none">
+              <path d="M0 12h32m-6-6l6 6-6 6" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card reveal delay-1">
+            <div class="step-indicator">
+              <span class="step-number">02</span>
+              <span class="step-icon">✨</span>
+            </div>
+            <div class="step-content">
+              <h3 class="step-title">Showcase Your Services & Work</h3>
+              <p class="step-desc">
+                Upload your high-resolution photos, define your service packages with pricing, and list key testimonials from happy previous clients.
+              </p>
+              <div class="step-mini-preview">
+                <div class="preview-grid-mini">
+                  <div class="grid-box"></div>
+                  <div class="grid-box"></div>
+                  <div class="grid-box active"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="step-connector" aria-hidden="true">
+            <svg width="40" height="24" viewBox="0 0 40 24" fill="none">
+              <path d="M0 12h32m-6-6l6 6-6 6" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card reveal delay-2">
+            <div class="step-indicator">
+              <span class="step-number">03</span>
+              <span class="step-icon">🚀</span>
+            </div>
+            <div class="step-content">
+              <h3 class="step-title">Share & Connect With Customers</h3>
+              <p class="step-desc">
+                Share your personalized link on your social bios, business cards, email signatures, and QR codes to begin receiving direct inquiries.
+              </p>
+              <div class="step-mini-preview">
+                <div class="preview-share-bar">
+                  <span>brilla.site/you</span>
+                  <button class="mini-copy-btn">Copy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="how-cta text-center reveal delay-3">
+          <button class="btn btn-primary btn-lg open-modal-btn">Start Building Your Page Today</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         7. WHO CAN USE BRILLA?
+         ============================================== -->
+    <section class="section audience-section" id="audience">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag tag-crimson">Tailored For You</span>
+          <h2 class="section-title">Built for Independent Creators & Local Leaders.</h2>
+          <p class="section-lead">
+            Whether you run a brick-and-mortar storefront or offer digital services from your laptop, Brilla molds to your unique positioning.
+          </p>
+        </div>
+
+        <div class="audience-grid">
+          <!-- Small Businesses Card -->
+          <div class="card audience-card audience-business reveal">
+            <div class="audience-banner">
+              <div class="audience-badge">Local Commerce & Services</div>
+              <div class="audience-icon">🏬</div>
+            </div>
+            
+            <div class="audience-body">
+              <h3 class="audience-title">Small Businesses</h3>
+              <p class="audience-tagline">
+                Build credibility, showcase products and services, and improve online visibility.
+              </p>
+
+              <div class="audience-divider"></div>
+
+              <div class="audience-roles">
+                <span class="role-tag">Boutique Stores</span>
+                <span class="role-tag">Hair & Beauty Salons</span>
+                <span class="role-tag">Artisan Bakeries</span>
+                <span class="role-tag">Home Contractors</span>
+                <span class="role-tag">Fitness Studios</span>
+                <span class="role-tag">Local Consultants</span>
+              </div>
+
+              <ul class="audience-benefits">
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
+                    <path d="M5 10l3 3 7-7" stroke="#FAEDD8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <span><strong>Establish Instant Credibility:</strong> Give walk-ins and referrals a polished web page to verify your legitimacy.</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
+                    <path d="M5 10l3 3 7-7" stroke="#FAEDD8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <span><strong>Showcase Offerings:</strong> List menu items, seasonal packages, catalog highlights, and operating hours.</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
+                    <path d="M5 10l3 3 7-7" stroke="#FAEDD8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <span><strong>Local Discovery:</strong> Help neighbors find your location, phone number, and directions with one tap.</span>
+                </li>
+              </ul>
+
+              <button class="btn btn-outline btn-block open-modal-btn">Explore Business Portfolios</button>
+            </div>
+          </div>
+
+          <!-- Freelancers Card -->
+          <div class="card audience-card audience-freelancer reveal delay-1">
+            <div class="audience-banner banner-orange">
+              <div class="audience-badge badge-secondary">Independent Talent</div>
+              <div class="audience-icon">💻</div>
+            </div>
+
+            <div class="audience-body">
+              <h3 class="audience-title">Freelancers</h3>
+              <p class="audience-tagline">
+                Display your skills, showcase previous work, and help potential clients discover your services.
+              </p>
+
+              <div class="audience-divider"></div>
+
+              <div class="audience-roles">
+                <span class="role-tag">UI/UX Designers</span>
+                <span class="role-tag">Copywriters</span>
+                <span class="role-tag">Photographers</span>
+                <span class="role-tag">Software Developers</span>
+                <span class="role-tag">Marketing Strategists</span>
+                <span class="role-tag">Translators</span>
+              </div>
+
+              <ul class="audience-benefits">
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
+                    <path d="M5 10l3 3 7-7" stroke="#FAEDD8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <span><strong>Curate Your Best Work:</strong> Replace clunky PDF resumes with a responsive gallery of your proudest case studies.</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
+                    <path d="M5 10l3 3 7-7" stroke="#FAEDD8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <span><strong>Clear Service Tiers:</strong> Prevent endless scope creep by detailing your project rates and timelines upfront.</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
+                    <path d="M5 10l3 3 7-7" stroke="#FAEDD8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <span><strong>Client Inquiries:</strong> Direct prospective clients into your email inbox or calendar with clean contact actions.</span>
+                </li>
+              </ul>
+
+              <button class="btn btn-outline btn-block open-modal-btn">Explore Freelancer Portfolios</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         8. WHY CHOOSE BRILLA?
+         ============================================== -->
+    <section class="section why-section" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag tag-orange">The Brilla Advantage</span>
+          <h2 class="section-title">Why Choose Brilla?</h2>
+          <p class="section-lead">
+            We focus strictly on the fundamental essentials that turn profile visitors into genuine inquiries without bloated complexity.
+          </p>
+        </div>
+
+        <div class="why-grid">
+          <!-- Pillar 1 -->
+          <div class="card why-card reveal">
+            <div class="why-number">01</div>
+            <div class="why-icon">⚡</div>
+            <h3 class="why-title">Simple and Easy to Use</h3>
+            <p class="why-desc">
+              Designed with a clutter-free, intuitive interface. You can set up and publish your complete portfolio during a lunch break without watching tutorials.
+            </p>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div class="card why-card reveal delay-1">
+            <div class="why-number">02</div>
+            <div class="why-icon">💎</div>
+            <h3 class="why-title">Professional Online Presence</h3>
+            <p class="why-desc">
+              Carefully engineered typography, modern color balance, and clean responsive layouts ensure your business looks polished on smartphones, tablets, and desktops alike.
+            </p>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="card why-card reveal delay-2">
+            <div class="why-number">03</div>
+            <div class="why-icon">🏷️</div>
+            <h3 class="why-title">Affordable Approach</h3>
+            <p class="why-desc">
+              Avoid high web agency retainer fees, costly custom development, and expensive hosting tiers. Brilla offers straightforward, budget-conscious accessibility.
+            </p>
+          </div>
+
+          <!-- Pillar 4 -->
+          <div class="card why-card reveal delay-3">
+            <div class="why-number">04</div>
+            <div class="why-icon">🛠️</div>
+            <h3 class="why-title">No Advanced Technical Skills Required</h3>
+            <p class="why-desc">
+              You will never write HTML, troubleshoot CSS breakpoints, manage DNS servers, or deal with CMS security updates. Brilla handles every technical detail behind the scenes.
+            </p>
+          </div>
+
+          <!-- Pillar 5 -->
+          <div class="card why-card card-span-2 reveal">
+            <div class="why-number">05</div>
+            <div class="why-icon">📁</div>
+            <h3 class="why-title">All Essential Business Information in One Place</h3>
+            <p class="why-desc">
+              Instead of scattering your portfolio links across separate social bios, file drives, and text messages, Brilla brings your biography, service rates, photo gallery, client testimonials, and direct contact options together into a unified, shareable hub.
+            </p>
+          </div>
+        </div>
+
+        <!-- Honest Commitment Notice -->
+        <div class="why-honesty-card reveal">
+          <div class="honesty-badge">Our Transparent Promise</div>
+          <p>
+            We don’t make unrealistic marketing claims or promise instant overnight millions. What we do promise is a dependable, elegant, and professional digital home that represents your craft with dignity and makes it effortless for interested clients to reach you.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         9. CALL-TO-ACTION SECTION
+         ============================================== -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-box reveal">
+          <div class="cta-glow" aria-hidden="true"></div>
+          <div class="cta-content text-center">
+            <span class="cta-pill">Begin Today</span>
+            <h2 class="cta-title">Ready to Make Your Business Shine?</h2>
+            <p class="cta-desc">
+              Take the first step towards building your professional online presence with Brilla.
+            </p>
+            <div class="cta-buttons">
+              <button class="btn btn-white btn-lg open-modal-btn">
+                <span>Get Started Today</span>
+                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4.167 10h11.666m-5-5l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+            <div class="cta-features-list">
+              <span>✓ Free setup</span>
+              <span>✓ No credit card required</span>
+              <span>✓ Ready in under 10 minutes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         10. CONTACT SECTION
+         ============================================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag tag-crimson">Get In Touch</span>
+          <h2 class="section-title">We'd Love to Hear From You.</h2>
+          <p class="section-lead">
+            Have questions about Brilla or need assistance creating your portfolio? Send us a message and our team will get back to you promptly.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Details & Socials -->
+          <div class="contact-info-panel reveal">
+            <h3 class="panel-heading">Let's Connect</h3>
+            <p class="panel-sub">
+              Whether you're just starting your freelancing journey or scaling your local business, our team is here to support you every step of the way.
+            </p>
+
+            <div class="contact-cards-stack">
+              <!-- Email Card -->
+              <div class="contact-info-card">
+                <div class="info-card-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="info-label">Email Us Directly</div>
+                  <a href="mailto:hello@brilla.example.com" class="info-value">hello@brilla.example.com</a>
+                  <div class="info-meta">Typically replies within 24 business hours</div>
+                </div>
+              </div>
+
+              <!-- Location / Base Card -->
+              <div class="contact-info-card">
+                <div class="info-card-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="info-label">Headquarters</div>
+                  <div class="info-value">Remote & Serving Globally</div>
+                  <div class="info-meta">Crafted with care for independent creators</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Media Handles -->
+            <div class="social-wrapper">
+              <h4 class="social-title">Follow Our Community</h4>
+              <div class="social-links">
+                <!-- Twitter / X -->
+                <a href="#" class="social-btn" aria-label="Follow Brilla on X">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  </svg>
+                </a>
+                <!-- LinkedIn -->
+                <a href="#" class="social-btn" aria-label="Follow Brilla on LinkedIn">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                </a>
+                <!-- Instagram -->
+                <a href="#" class="social-btn" aria-label="Follow Brilla on Instagram">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                  </svg>
+                </a>
+                <!-- Facebook -->
+                <a href="#" class="social-btn" aria-label="Follow Brilla on Facebook">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.374 14.5 5 15.69 5H18V0h-3.808C10.597 0 9 1.583 9 4.615V8z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="card contact-form-card reveal delay-1">
+            <h3 class="form-title">Send a Message</h3>
+            <p class="form-sub">Fill out the form below and we will respond directly to your email.</p>
+
+            <form id="contactForm" novalidate>
+              <!-- Name Field -->
+              <div class="form-group">
+                <label for="contactName" class="form-label">Your Name <span class="required">*</span></label>
+                <div class="input-wrapper">
+                  <input type="text" id="contactName" name="name" class="form-input" placeholder="e.g. Maya Chen" required>
+                </div>
+                <span class="field-error" id="nameError"></span>
+              </div>
+
+              <!-- Email Field -->
+              <div class="form-group">
+                <label for="contactEmail" class="form-label">Email Address <span class="required">*</span></label>
+                <div class="input-wrapper">
+                  <input type="email" id="contactEmail" name="email" class="form-input" placeholder="maya@example.com" required>
+                </div>
+                <span class="field-error" id="emailError"></span>
+              </div>
+
+              <!-- Audience Type (User category) -->
+              <div class="form-group">
+                <label for="contactCategory" class="form-label">I am a...</label>
+                <div class="select-wrapper">
+                  <select id="contactCategory" name="category" class="form-select">
+                    <option value="freelancer">Freelancer / Independent Professional</option>
+                    <option value="small-business">Small Business Owner</option>
+                    <option value="service-provider">Local Service Provider</option>
+                    <option value="other">Other / Just Exploring</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Message Field -->
+              <div class="form-group">
+                <label for="contactMessage" class="form-label">Message <span class="required">*</span></label>
+                <div class="input-wrapper">
+                  <textarea id="contactMessage" name="message" class="form-textarea" rows="4" placeholder="Tell us about your business or what you'd like to ask..." required></textarea>
+                </div>
+                <span class="field-error" id="messageError"></span>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary btn-block submit-btn" id="submitContactBtn">
+                <span class="btn-text">Send Message</span>
+                <span class="btn-spinner" aria-hidden="true"></span>
+              </button>
+            </form>
+
+            <!-- Form Success Message Toast / Box -->
+            <div class="form-success-alert" id="formSuccessAlert" style="display: none;" role="status">
+              <div class="success-icon">✓</div>
+              <div>
+                <strong>Thank you! Your message has been sent.</strong>
+                <p>We've received your note and will get back to you shortly.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==============================================
+       FOOTER
+       ============================================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="brand-logo footer-logo" aria-label="Brilla Home">
+            <img src="brilla-logo-transparent.png" alt="Brilla" class="footer-logo-img">
+          </a>
+          <p class="footer-tagline">
+            Empowering small businesses and independent freelancers to showcase their work, build credibility, and shine online.
+          </p>
+        </div>
+
+        <div class="footer-nav-group">
+          <div class="footer-col">
+            <h5 class="footer-col-title">Navigation</h5>
+            <ul class="footer-links">
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#how-it-works">How It Works</a></li>
+              <li><a href="#about">Why Brilla</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h5 class="footer-col-title">Solutions</h5>
+            <ul class="footer-links">
+              <li><a href="#audience">For Small Businesses</a></li>
+              <li><a href="#audience">For Freelancers</a></li>
+              <li><a href="#features">Portfolio Gallery</a></li>
+              <li><a href="#features">Service Listings</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h5 class="footer-col-title">Connect</h5>
+            <ul class="footer-links">
+              <li><a href="mailto:hello@brilla.example.com">hello@brilla.example.com</a></li>
+              <li><a href="#contact">Support Desk</a></li>
+              <li><a href="#contact">Inquiries</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2026 Brilla. All rights reserved. Built for creators who make things happen.</p>
+        <button class="back-to-top" id="backToTopBtn" aria-label="Back to top">
+          <span>Back to Top</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==============================================
+       INTERACTIVE "GET STARTED" MODAL
+       ============================================== -->
+  <div class="modal-overlay" id="getStartedModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">&times;</button>
+      
+      <div class="modal-header">
+        <img src="brilla-logo-transparent.png" alt="Brilla" class="modal-logo-img">
+        <h3 id="modalTitle" class="modal-title">Get Started With Brilla</h3>
+        <p class="modal-subtitle">Claim your personalized Brilla portfolio handle in seconds.</p>
+      </div>
+
+      <form id="getStartedForm" novalidate>
+        <div class="form-group">
+          <label for="modalFullName" class="form-label">Full Name or Business Name</label>
+          <input type="text" id="modalFullName" class="form-input" placeholder="e.g. Modern Craft Bakery" required>
+        </div>
+
+        <div class="form-group">
+          <label for="modalHandle" class="form-label">Choose Your Free URL</label>
+          <div class="handle-input-box">
+            <span class="handle-prefix">brilla.site/</span>
+            <input type="text" id="modalHandle" class="form-input handle-input" placeholder="yourname" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="modalEmail" class="form-label">Email Address</label>
+          <input type="email" id="modalEmail" class="form-input" placeholder="you@domain.com" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block modal-submit-btn">
+          <span>Create My Free Portfolio</span>
+        </button>
+      </form>
+
+      <div class="modal-success-box" id="modalSuccessBox" style="display: none;">
+        <div class="success-icon">🎉</div>
+        <h4>You're on the list!</h4>
+        <p>Your handle has been reserved. Check your email for next steps to customize your portfolio.</p>
+        <button class="btn btn-secondary btn-block modal-dismiss-btn" id="modalDismissBtn">Done</button>
+      </div>
+
+      <div class="modal-footer-note">
+        🔒 No credit card required. Free preview setup.
+      </div>
+    </div>
+  </div>
+
+  <!-- Vanilla JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
